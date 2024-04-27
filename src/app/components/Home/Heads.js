@@ -20,7 +20,7 @@ import hero_ellipse_2 from "../../assets/home/hero_ellipse_2.png";
 
 const Heads = () => {
   return (
-    <div className="min-h-[100vh] bg-[#191A19]  p-4 flex flex-col gap-[70px] relative">
+    <div id="heads" className="min-h-[100vh] bg-[#191A19]  p-4 flex flex-col gap-[70px] relative">
       <div className="mx-auto text-center w-[80%] sm:w-[60%]">
         <h2 className=" text-[1.3rem] sm:text-[1.8rem] font-bold  text-white">
           Connect with <span className="text-[#FF7420]">Heads</span>

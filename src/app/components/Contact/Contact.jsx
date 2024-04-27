@@ -30,7 +30,7 @@ const Contact = () => {
             </div>
             <div className="flex items-start gap-3">
               <Image src={mail} height={24} width={24} alt="mail" />
-              <p className="text-[#C9C9C9]">demo@gmail.com</p>
+              <p className="text-[#C9C9C9]">softdeskuettaxila.pk@gmail.com</p>
             </div>
             <div className="flex items-start gap-3">
               <Image src={location} height={24} width={24} alt="location" />

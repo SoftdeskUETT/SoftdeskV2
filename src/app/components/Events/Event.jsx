@@ -91,8 +91,7 @@ const Event = ({
                 />
               </h2>
               <h3 className="text-white font-semibold text-[30px] leading-10 relative">
-                <span className="text-primary">{subTitleHead} </span>providing
-                the
+                <span className="text-primary">{subTitleHead} </span>
                 {subTitle}
                 <div className="absolute top-1/2 -right-5 xl:-right-10">
                   {" "}

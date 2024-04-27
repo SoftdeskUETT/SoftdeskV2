@@ -5,15 +5,27 @@ import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import pic from "../../assets/events/cabinet1.jpg";
-import pic2 from "../../assets/events/event-2-pic-1.jpg";
-const cabinet = [
-  {
-    pic: pic,
-  },
-  {
-    pic: pic2,
-  },
-];
+//import pic2 from "../../assets/events/event-2-pic-1.jpg";
+
+import pic1 from "../../assets/events/Cabinet22-23.jpg";
+import pic2 from "../../assets/events/Cabinet21-22.jpg";
+import pic3 from "../../assets/events/Cabinet20-21.jpg";
+import pic4 from "../../assets/events/Cabinet19-20.jpg";
+import pic5 from "../../assets/events/Cabinet18-19.jpg";
+import pic6 from "../../assets/events/Cabinet17-18.jpg";
+import pic7 from "../../assets/events/Cabinet16-17.jpg";
+import pic8 from "../../assets/events/Cabinet16-17-2.jpg";
+import pic9 from "../../assets/events/Cabinet15-16.jpg";
+import pic10 from "../../assets/events/Cabinet14-15.jpg";
+
+// const cabinet = [
+//   {
+//     pic: pic,
+//   },
+//   {
+//     pic: pic2,
+//   },
+// ];
 
 const EmblaCarousel = (props) => {
   const { options } = props;
@@ -57,8 +69,8 @@ const EmblaCarousel = (props) => {
           <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
             <div className="embla__slide__number relative w-[100%] h-full">
               <Image
-                src={pic}
-                alt={pic}
+                src={pic1}
+                alt={pic1}
                 fill
                 className=" w-full h-full  absolute object-contain"
               />
@@ -67,8 +79,8 @@ const EmblaCarousel = (props) => {
           <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
             <div className=" relative w-[100%] h-full">
               <Image
-                src={pic}
-                alt={pic}
+                src={pic2}
+                alt={pic2}
                 fill
                 className=" w-full h-full  absolute object-contain"
               />
@@ -77,8 +89,78 @@ const EmblaCarousel = (props) => {
           <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
             <div className=" relative w-[100%] h-full">
               <Image
-                src={pic}
-                alt={pic}
+                src={pic3}
+                alt={pic3}
+                fill
+                className=" w-full h-full  absolute object-contain"
+              />
+            </div>
+          </div>
+          <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
+            <div className=" relative w-[100%] h-full">
+              <Image
+                src={pic4}
+                alt={pic4}
+                fill
+                className=" w-full h-full  absolute object-contain"
+              />
+            </div>
+          </div>
+          <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
+            <div className=" relative w-[100%] h-full">
+              <Image
+                src={pic5}
+                alt={pic5}
+                fill
+                className=" w-full h-full  absolute object-contain"
+              />
+            </div>
+          </div>
+          <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
+            <div className=" relative w-[100%] h-full">
+              <Image
+                src={pic6}
+                alt={pic6}
+                fill
+                className=" w-full h-full  absolute object-contain"
+              />
+            </div>
+          </div>
+          <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
+            <div className=" relative w-[100%] h-full">
+              <Image
+                src={pic7}
+                alt={pic7}
+                fill
+                className=" w-full h-full  absolute object-contain"
+              />
+            </div>
+          </div>
+          <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
+            <div className=" relative w-[100%] h-full">
+              <Image
+                src={pic8}
+                alt={pic8}
+                fill
+                className=" w-full h-full  absolute object-contain"
+              />
+            </div>
+          </div>
+          <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
+            <div className=" relative w-[100%] h-full">
+              <Image
+                src={pic9}
+                alt={pic9}
+                fill
+                className=" w-full h-full  absolute object-contain"
+              />
+            </div>
+          </div>
+          <div className="embla__slide h-[280px] sm:h-[400px] md:h-[650px]">
+            <div className=" relative w-[100%] h-full">
+              <Image
+                src={pic10}
+                alt={pic10}
                 fill
                 className=" w-full h-full  absolute object-contain"
               />

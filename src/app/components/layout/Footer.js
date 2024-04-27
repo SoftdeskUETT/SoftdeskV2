@@ -22,22 +22,22 @@ const links = [
       {
         link: "Cabinet",
         new: false,
-        href: "/",
+        href: "/#cabinet",
       },
       {
         link: "Tech Spectrum",
         new: false,
-        href: "/",
+        href: "/#courses",
       },
       {
-        link: "Tutorials",
+        link: "Gallery",
         new: false,
-        href: "/",
+        href: "/gallery",
       },
       {
         link: "Events",
         new: false,
-        href: "/",
+        href: "/events",
       },
     ],
   },
@@ -47,17 +47,17 @@ const links = [
       {
         link: "About us",
         new: false,
-        href: "/",
+        href: "/#about",
       },
       {
         link: "Heads",
         new: false,
-        href: "/",
+        href: "/#heads",
       },
       {
         link: "Courses",
         new: true,
-        href: "/",
+        href: "/#courses",
       },
       {
         link: "News",
@@ -78,19 +78,19 @@ const links = [
       {
         link: "LinkedIn",
         new: false,
-        href: "/",
+        href: "https://www.linkedin.com/company/softdeskuett/mycompany/",
       },
       ,
       {
         link: "Instagram",
         new: false,
-        href: "/",
+        href: "https://www.instagram.com/softdesk_uett/",
       },
       ,
       {
         link: "Facebook",
         new: false,
-        href: "/",
+        href: "https://www.facebook.com/SoftDesk",
       },
       ,
     ],
@@ -116,7 +116,7 @@ const links = [
       {
         link: "Contact",
         new: false,
-        href: "/",
+        href: "/contact",
       },
     ],
   },
@@ -144,6 +144,7 @@ const Footer = () => {
                     <Link
                       href={link.href}
                       className="text-[#EAECF0] text-[12px] sm:text-[16px]"
+                      // target="_blank"
                     >
                       {link.link}
                     </Link>
@@ -176,24 +177,39 @@ const Footer = () => {
       {/*  Bottom Footer */}
       <div className="bg-[#191A19]  py-4 px-4 md:px-10 grid grid-cols-1 text-center gap-2">
         <div className="flex justify-center gap-4">
+          <Link href="mailto:softdeskuettaxila.pk@gmail.com" legacyBehavior>
+            <a target="_blank">
           <Image src={mail} alt="mail" width={20} height={20} />
-          <Image src={linkedin} alt="linkedin" width={20} height={20} />
-          <Image src={facebook} alt="facebook" width={20} height={20} />
-          <Image src={instagram} alt="instagram" width={20} height={20} />
-          <Image src={dribble} alt="dribble" width={20} height={20} />
+          </a>
+          </Link>
+          <Link href="https://www.linkedin.com/company/softdeskuett/mycompany/" legacyBehavior>
+            <a target="_blank">
+            <Image src={linkedin} alt="linkedin" width={20} height={20} />
+          </a>
+          </Link>
+          <Link href="https://www.facebook.com/SoftDesk" legacyBehavior>
+            <a target="_blank">
+            <Image src={facebook} alt="facebook" width={20} height={20} />
+          </a>
+          </Link>
+          <Link href="https://www.instagram.com/softdesk_uett/" legacyBehavior>
+            <a target="_blank">
+            <Image src={instagram} alt="instagram" width={20} height={20} />
+          </a>
+          </Link>
         </div>
         <span className="text-[#98A2B3] text-[13px] sm:text-[14px] ">
-          © 2024 Ed-Softdesk.designed by{" "}
+          © 2024 Ed-Softdesk.<br></br>Designed by{"  "}
           <Link
             href="https://www.behance.net/shaista12"
             className="text-[#FF7420]"
           >
             Shaista (21-SE-90)
-          </Link>{" "}
-          &nbsp; And developed by{" "}
+          </Link>{""}
+          &nbsp; and developed by{" "}
           <Link href="" className="text-[#FF7420]">
             M.Ammar Mubashir (21-SE-38)
-          </Link>{" "}
+          </Link>{""}
           &nbsp; & &nbsp;
           <Link
             href="https://www.syedmoazamali.online/"
