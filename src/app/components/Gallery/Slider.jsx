@@ -13,21 +13,21 @@ import "./styles.css";
 import { Pagination, Keyboard, Mousewheel, Autoplay } from "swiper/modules";
 import Image from "next/image";
 
-import img1 from "../../assets/gallery/gs1.jpg";
-import img2 from "../../assets/gallery/gs2.jpg";
-import img3 from "../../assets/gallery/gs3.jpg";
-import img4 from "../../assets/gallery/gs4.jpg";
-import img5 from "../../assets/gallery/gs5.jpg";
-import img6 from "../../assets/gallery/gs6.jpg";
-import img7 from "../../assets/gallery/gs7.jpg";
-import img8 from "../../assets/gallery/gs8.jpg";
-import img9 from "../../assets/gallery/gs9.jpg";
-import img10 from "../../assets/gallery/gs10.jpg";
-import img11 from "../../assets/gallery/gs11.jpg";
-import img12 from "../../assets/gallery/gs12.jpg";
-import img13 from "../../assets/gallery/gs13.jpg";
-import img14 from "../../assets/gallery/gs14.jpg";
-import img15 from "../../assets/gallery/gs15.jpg";
+import img1 from "../../assets/gallery/gs1.png";
+import img2 from "../../assets/gallery/gs2.png";
+import img3 from "../../assets/gallery/gs3.png";
+import img4 from "../../assets/gallery/gs4.png";
+import img5 from "../../assets/gallery/gs5.png";
+import img6 from "../../assets/gallery/gs6.png";
+import img7 from "../../assets/gallery/gs7.png";
+import img8 from "../../assets/gallery/gs8.png";
+import img9 from "../../assets/gallery/gs9.png";
+import img10 from "../../assets/gallery/gs10.png";
+import img11 from "../../assets/gallery/gs11.png";
+import img12 from "../../assets/gallery/gs12.png";
+import img13 from "../../assets/gallery/gs13.png";
+import img14 from "../../assets/gallery/gs14.png";
+import img15 from "../../assets/gallery/gs15.png";
 
 const Slider = () => {
   return (

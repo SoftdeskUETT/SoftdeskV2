@@ -3,7 +3,7 @@ import Image from "next/image";
 import "./styles.css";
 
 import img1 from "../../assets/gallery/gal1.jpg";
-import img2 from "../../assets/gallery/gal2.JPG";
+import img2 from "../../assets/gallery/gal2.jpg";
 import img3 from "../../assets/gallery/gal3.jpg";
 import img4 from "../../assets/gallery/gal4.jpg";
 import img5 from "../../assets/gallery/gal5.jpg";
@@ -27,7 +27,7 @@ const GalleryImgBox = () => {
             src={img2}
             height={140}
             width={180}
-            alt="img1"
+            alt="img2"
             className="h-[150px] sm:w-[100%] sm:h-[100%] sm:bg-cover"
           />
         </div>
@@ -36,7 +36,7 @@ const GalleryImgBox = () => {
             src={img3}
             height={140}
             width={180}
-            alt="img1"
+            alt="img3"
             className="h-[150px] sm:w-[100%] sm:h-[100%] sm:bg-cover"
           />
         </div>
@@ -45,7 +45,7 @@ const GalleryImgBox = () => {
             src={img4}
             height={140}
             width={180}
-            alt="img1"
+            alt="img4"
             className="h-[150px] sm:w-[100%] sm:h-[100%] sm:bg-cover"
           />
         </div>
@@ -54,7 +54,7 @@ const GalleryImgBox = () => {
             src={img5}
             height={140}
             width={180}
-            alt="img1"
+            alt="img5"
             className="h-[150px] sm:w-[100%] sm:h-[100%] sm:bg-cover"
           />
         </div>
@@ -63,7 +63,7 @@ const GalleryImgBox = () => {
             src={img6}
             height={140}
             width={180}
-            alt="img1"
+            alt="img6"
             className="h-[150px] sm:w-[100%] sm:h-[100%] sm:bg-cover"
           />
         </div>
