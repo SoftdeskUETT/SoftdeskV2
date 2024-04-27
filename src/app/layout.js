@@ -8,16 +8,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Softdesk",
-  // image: "/logo.png",
+  description: "Technical Society SoftDesk, Uet Taxila",
 };
 
 export default function RootLayout({ children }) {
   return (
     <>
       <Head>
-        <title>{metadata.title}</title>
-
-        {/* <link rel="icon" href={metadata.image} /> */}
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </Head>
       <html lang="en">
         <body className={inter.className}>
