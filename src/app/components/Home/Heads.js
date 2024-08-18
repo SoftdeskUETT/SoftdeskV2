@@ -95,12 +95,12 @@ const Heads = () => {
                 className="absolute z-10 w-[75px] sm:w-[100px] md:w-[150px]"
               />
             </div>
-            <div className="bg-[#060606FC]  pl-[15px] sm:pl-[40px] py-[10px] md:py-[20px] w-[100px] sm:w-[120px] md:w-[220px] rounded-tr-full rounded-br-full">
+            <div className="bg-[#060606FC]  pl-[15px] sm:pl-[40px] py-[10px] md:py-[20px] w-[100px] sm:w-[120px] md:w-[250px] rounded-tr-full rounded-br-full">
               <h2 className="text-[#FF7420] text-[0.4rem] sm:text-[0.6rem] md:text-[1.2rem] font-bold">
                 IT Head
               </h2>
               <h2 className="text-white text-[0.5rem] sm:text-[0.6rem] md:text-[1.2rem]">
-                FAHEEM ABBAS
+              SYED MOAZAM ALI 
               </h2>
             </div>
           </div>
